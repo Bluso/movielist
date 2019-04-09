@@ -1,0 +1,38 @@
+.form-group.has-error {
+  .form-control {
+    border-color: red;
+  }
+  .form-control:focus {
+    border: 3px solid red;
+  }
+}
+
+.help-block {
+  color: red;
+}
+
+.form-upload {
+  #drop-area {
+  color: grey;
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  width: 80%;
+  margin: 3% auto;
+  padding: 10%;
+  text-align: center;
+    #file-input {
+      display: none;
+    }
+    #preview {
+      margin: 2%;
+      img {
+        width: 150px;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+#drop-area.highlight {
+  border-color: #3490dc;
+}
